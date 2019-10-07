@@ -1,0 +1,86 @@
+How would one go about finding where additional transport modes or infrastructure could be profitably installed? 
+There are in fact many things to consider. 
+To begin with, it is important to understand the general supply and demand in an area. 
+Are buses and trains overflowing? 
+This can be an indicator that there is room for additional transport operators to profit from the area. 
+But it may also not necessarily be so simple.
+For example, buses may be overflowing during peak time, but buses travelling during off-peak times may be almost empty, for the vast majority of the day.
+Building up capability to handle peak times can be beneficial, but there are additional costs associated with then running (or not running) those buses for the off-peak times.
+Peak times are often also directional.
+Buses and trains travelling towards a city centre can be overcrowded in the morning, but the buses leaving the city centre for the suburbs may be empty.
+A bus travelling during peak time in these conditions will therefore on average be only half full.
+In many cases, the small amount of passengers for most of the day and in the opposite direction to the main bulk of commuters may bring the cost efficiency of the service down by a considerable amount.
+Transport operators regularly analyse their service to try and increase profit, so if there was additional profit to be made by adding vehicles to a route, they would certainly do it, unless their analysis was incorrect.
+Starting a transport business based on simple supply and demand models therefore requires some sort of evidence that the existing services are running suboptimally.
+There is no reason to not think that this is the case in many scenarios, but careful analysis needs to be made to ensure that the introduction of a new service doesn't just result in failure.
+When attempting to introduce a new transport service, one must first identify what service is actually needed by the customers.
+Why would customers switch to this new service, rather than use the current one?
+
+If one were to offer a new bus service on an already existing route with fares that are not too steep, it is very likely that passengers could be acquired, simply due to the fact that they are taking the route anyway and that there are buses that may currently be more spacious than on the existing service.
+
+However, depending on the local authority, it may not be allowed for an operator to operate the exact same route as another operator. 
+This can be understandable. 
+When I was studying in Sheffield, I would frequently take a bus service that was served by two bus operators (First and StageCoach).
+The prices on the two services could differ and a return ticket would only be accepted on the service it was bought on. 
+For many people, this was beneficial - bus wars between operators meant that prices could remain low. 
+If the bus operators ran a joint return ticket, it would be likely to be more expensive than the specific return ticket.
+The return ticket for a specific operator can remain at a low cost, because the operator has in that case ensured that the customer will return to their service, or pay without using it, meaning that they have gained a future security for their sole benefit.
+A return ticket joint over multiple operators would mean that no benefit over their competition would be secured.
+However, a joint ticket could also be beneficial for the operators.
+If the fares of the ticket were shared, it is possible for an operator that someone buying a return ticket may take the other operator's service on the way back, leaving room for an additional paying customer on that service. 
+For many people, the lack of standardisation of the ticketing was annoying - some would avoid taking the bus altogether due to this reason.
+Simplicity makes ticketing easier and more understandable for customers, which can encourage customers to use a service.
+This realisation has meant that some cities are opting for one fare for all buses in an attempt to increase bus usage and make travel easier for customers.
+
+Market analysis is very important in transport.
+Understanding where people are travelling to and why is essential to figuring out where a service may be successful.
+For example, many people may be taking a bus A, followed by a bus B due to the fact that there are no alternative means of easily reaching their destination. 
+These buses may travel in a zigzag and actually reach their destination in quite a sizeable amount of time.
+In my youth I was able to jog across West London from Northolt to Hampton Hill (about 10 miles) in less time than I could reach it via public transport.
+This was simply because there was no direct route and public transport had to be taken by an assortment of zigzags.
+But that doesn't necessarily mean that creating such a direct route would be successful.
+There has to be enough market interest in order to make the service profitable.
+It should be kept in mind that the market interest for a route will not be just for a journey between two particular points - the market interest could be for any point along that route.
+It could also be an interest in arriving at a variety of points that may suddenly be better reached by the new route.
+
+A new service that may go along some new potential route will then have to be analysed to see how well it is likely to capture the market that it is targeting.
+A good way to do this would be to figure out a competitiveness index{Jurewicz, Piotr (et al.) Method for Assessing Rail Transport Competitiveness in Poland and the United Kingdom, Transport Development Challenges in the Twenty-First Century} for various points on and around the route of the new service.
+A competitiveness index can be acquired by running a survey on and around your planned route.
+The people taking part in the survey should be asked to give scores as to how much they value different factors of their transport options (e.g. cost, journey time, space).
+These scores can then be used to figure out an average weighting as to how much each of the factors matter to the potential customers.
+Once these weighting are acquired, one can now empirically compare how likely people are to favour the new service over existing services by comparing how the factors differ amongst services, adjusted by the weightings.
+To gain an even better estimate of what may happen if the new service is introduced, it might be better to refine this analysis further.
+Results from the survey could be sorted into groups and analysed seperately.
+They could be seperated by area, by preferences or by other data. 
+When these smaller groups are then analysed, it is likely that more accurate predictions can be reached.
+This is a result of the fact that a general average may not in fact be that useful.
+For example, there may be two groups of people, one set of which care the most about costs of journeys and will always prefer to walk rather than take other forms of transport, while the other does not care about the cost of journey, but wants the quickest possible journey, which they feel they can only achieve by driving their own cars.
+An average of these groups may result in a competitiveness index that suggests a bus route along their route will be successful, as the cost factor will be averaged out between them.
+In the meantime, the reality will remain that these are two radically different groups who would both avoid the new bus service.
+Similarly, it may be the case that a particular type of bus cannot really accommodate a substantial amount of people in the area who may have disabilities.
+In both of these cases, these groups will either not be useful for the analysis, or the information could be incredibly useful - here is an untapped market group that may require a service that fits their specific situations.
+
+As groups are broken down further, the distinctions can be used to better analyse the market and improve on a transport service.
+In transport modelling it is common to try to break down groups as much as possible when modelling transport networks. 
+Ultimately it would be best if every single person's journey could be understood and analysed - that would give the best information for planning a new transport service.
+Models that break down groups substantially are called "disaggregate" models and are now used widely instead of the simple "aggregate" models that would have been used in the past.
+
+Monopolies and Market shares
+----------
+Transport authorities may also be interested in bringing in new transport services for other reasons, than just the fact of simple profit.
+One of the reasons may be to break up monopolies.
+Breaking up monopolies can be useful to ensure transport can thrive through healthy competition between transport providers.
+In areas served by competing providers, costs are likely to decrease and productivity is likely to increase {***CITATION***}.
+Operators are also likely to start considering providing options for people who may not be served particularly well in order to increase their market size.
+At worst, commuters will at least be able to have an option between types of services.
+These points may seem obvious, but what is less obvious is what a transport monopoly consists of and how it can be found.
+Typically a monopoly is when there is some exclusive control of a supply in a market.
+In the case of transport, this isn't necessarily just about whether all of the rail is owned by one company (or nationalised).
+Monopolies in transport can exist at the local level, and even in sub-divisions at that level.
+We can talk about transport monopolies over particular routes in fact.
+If a person is travelling between point A and B and they only have one significant option (i.e. out of their desired walking distance), there is a monopoly on their journey.
+How would you go about figuring out where transport monopolies are occurring?
+One way would be to take a map of an area and to draw dots equally spaced across it.
+For any selection of two points, an analysis can be run of how many options there are to travel between them, and what share of commuters on this route each option is likely to hold.
+Indices such as the Herfindahl-Hirschman Index can the be used on this information to measure the amount of competition on each point-to-point journey.
+Areas (points where most routes leading away from them have little competition) or routes with low competition can then be targeted for new services.
