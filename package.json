@@ -1,0 +1,16 @@
+{
+  "name": "TypeScript for TranSport",
+  "version": "1.0.0",
+  "description": "Library for helping with transport problems",
+  "author": "Michal Paszkiewicz TfL",
+  "repository": null,
+  "jest": {
+    "moduleFileExtensions": [
+      "ts",
+      "js"
+    ],
+    "testMatch": [
+      "**/tests/bin/tests/**.(js)"
+    ]
+  }
+}
