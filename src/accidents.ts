@@ -58,3 +58,16 @@ export var marginalRateOfSubstitutionGenerator = (utility: (t: number) => number
 export var valueOfLifeYearsLostGenerator = (utility: (t: number) => number, survivalProbability: (time: number, startAge: number) => number, marginalUtilityOfConsumption: (age: number) => number) => 
     (age: number, discountRate: number, remainingLifetime: number) => 
     marginalRateOfSubstitutionGenerator(utility, survivalProbability, marginalUtilityOfConsumption)(age, discountRate) / ((1 - Math.pow(1 + discountRate, - remainingLifetime)) / discountRate);
+
+/** 
+ * Change in expected number of crashes. 
+ * An engineering change is expected to make some effect on the number of crashes, but it is subject to the human behavioural adaptation - in this case represented by the human feedback parameter.
+ * f = human feedback parameter.
+ * f = 0 -> No behavioural adaptation (eg airbags).
+ * -1 < f < 0 -> behavioural adaptation that reduces engineering effect (eg road lighting).
+ * f = -1 -> no effect on actual safety (eg bright road surfaces).
+ * f < -1 -> measure has an adverse effect on safety as a result of behavioural adaptation (eg marked pedestrian crossings).
+ * Rudin-Brown & Jamson's Behavioural Adaptation and Road Safety p.380
+ */
+export var actualChangeInExpectedNumberOfCrashes = (engineeringChangeInExpectedAmountOfCrashes: number, humanFeedBackParameter: number) => 
+    (1 + humanFeedBackParameter) * engineeringChangeInExpectedAmountOfCrashes;
