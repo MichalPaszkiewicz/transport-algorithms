@@ -24,3 +24,14 @@ export var trafficFlow = (numberOfVehicles: number, vehicleSpeed: number) => num
  */
 export var trafficSpeedGenerator = (freeFlowSpeed: number, jamConcentration: number) => 
     (concentration: number) => freeFlowSpeed * (1 - concentration / jamConcentration);
+
+/**
+ * Time taken for cars to pass through bottleneck.
+ * Nash' Transport Economics and Policy p.257
+ */
+export var timeTakenForCarsToPassThroughBottleneck = (carCount: number, capacity: number) => 
+    carCount / capacity;
+export var timeTakenForCarsToPassThroughBottleneckInMilliseconds = (initialTime: Date, finalTime: Date) => 
+    finalTime.getTime() - initialTime.getTime();
+
+

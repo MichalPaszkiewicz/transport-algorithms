@@ -71,3 +71,15 @@ export var valueOfLifeYearsLostGenerator = (utility: (t: number) => number, surv
  */
 export var actualChangeInExpectedNumberOfCrashes = (engineeringChangeInExpectedAmountOfCrashes: number, humanFeedBackParameter: number) => 
     (1 + humanFeedBackParameter) * engineeringChangeInExpectedAmountOfCrashes;
+
+/**
+ * Expected casualties from exposure, crash rate and injury rate.
+ * From Rudin-Brown and Jamson's Behavioural Adaptation and Road Safety p.410
+ */
+export var casualtiesFromECI = (exposure: number, crashRate: number, injuryRate: number) => exposure * crashRate * injuryRate;
+
+/**
+ * Expected casualties from crashes per km and casualties per crash.
+ * From Rudin-Brown and Jamson's Behavioural Adaptation and Road Safety p.410
+ */
+export var casualtiesFromCKCC = (crashesPerKm: number, casualtiesPerCrash: number) => crashesPerKm * casualtiesPerCrash;

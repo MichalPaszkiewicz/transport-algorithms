@@ -35,7 +35,11 @@ import * as roadPricing from "./pricing/road";
 export var RoadPricing = roadPricing;
 
 import * as accessibility from "./urbanplanning/accessibility";
-export var Accessibility = accessibility;
-
 import * as landUse from "./urbanplanning/landuse";
-export var LandUse = landUse;
+import {carOwnershipGenerator} from "./urbanplanning/carownership";
+
+export var UrbanPlanning = {
+    Accessibility: accessibility,
+    LandUse: landUse,
+    carOwnershipGenerator
+}

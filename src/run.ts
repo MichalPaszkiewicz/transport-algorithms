@@ -1,5 +1,5 @@
-import {Economics} from "./economics";
-import {Scheduling} from "./scheduling";
+import * as Economics from "./economics";
+import * as Scheduling from "./scheduling";
 import {scatterPlot} from "./chart";
 
 var indices = [];
